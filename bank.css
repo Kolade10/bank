@@ -1,0 +1,237 @@
+html,
+body{
+    max-width: 1700px;
+     min-width: 1700px;
+     background-color: #e5e5e5;
+     margin: auto;
+     font-family: ;
+}
+.dash{
+    width: 109px;
+    height: 21px;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 21.11px;
+    color: #03a66a;
+    margin-left: 65px;
+}
+.dashtext{
+    width: 239px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 65px;
+}
+.fullsec{
+    width: 100%;
+    height: 520px;
+}
+.inbox{
+    width: 92%;
+    height: 291px;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+    box-shadow: 1px 1px 4px 0px grey;
+    margin: auto;
+}
+.innerbox{
+    width: 97%;
+    height: 210px;
+    padding-top: 81px;
+    padding-left: 37px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px 355px 280px;
+    grid-gap: 9px;
+}
+.box{
+    width: 280px;
+    height: 200px;
+}
+.smallhead{
+    width: 104px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #231f1f;
+    margin: 9px;
+}
+.inputbox{
+    width: 254px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding-left: 26px;
+    background-color: #f3f3f8;
+
+}
+.sinputbox{
+    width: 280px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    outline: none;
+    padding-left: 26px;
+    background-color: #f3f3f8;
+
+}
+.searchbut{
+    width: 270px;
+    height: 54px;
+    border-radius: 30px;
+    background-color: #03a66a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;margin-top: 45px;
+}
+.bottomright{
+    width: 324px;
+    height: 53px;
+    border-radius: 22px;
+    background-color: #dddddd;
+    float: right;
+    margin-top: 143px;
+    margin-right: 260px;
+    display: grid;
+    grid-template-columns: 108px 108px 108px;
+}
+.file{
+    width: 108.34px;
+    height: 53px;
+    text-align: center;
+    cursor: pointer;
+}
+.file:hover{
+    background-color: #03a66a;
+    border-radius:22px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.state{
+    width: 90%;
+    margin: auto;
+    height: 760px;
+}
+.statehead{
+    width: 93.8%;
+    height: 70px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 220px;
+    padding-left: 91px
+}
+.headtext{
+    width: 197px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.statebody{
+    width: 93.8%;
+    height: 95px;
+    background-color: #f9f9f9;
+    border-top: 0.5px solid #f3f3f3;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 220px;
+    padding-left: 91px
+}
+.laststatebody{
+    width: 93.8%;
+    height: 95px;
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: 0.5px solid #f3f3f3;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 220px;
+    padding-left: 91px
+}
+.statebody:hover{
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px grey;
+}
+.laststatebody:hover{
+    background-color: white;
+    box-shadow: 2px 2px 7px 0px grey;
+}
+.bodytext{
+    width: 260px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #3e4954;
+    margin-top: 35px;
+}
+.foot{
+    width: 100%;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 200px 1000px;
+    grid-gap: 480px;
+    margin-top: 30px;
+}
+.foottext p{
+    width: 358px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3e4954;
+}
+.footpage{
+    display: grid;
+    grid-template-columns: 300px 416px 300px;
+    height: 53px;
+}
+.pagenum{
+    width: 400px;
+    height: 53px;
+    border-radius: 22px;
+    background-color: #dddddd;
+    float: right;
+    display: grid;
+    grid-template-columns: 108px 108px 108px 108px;
+}
+.num{
+    width: 80px;
+    height: 53px;
+    text-align: center;
+    cursor: pointer;
+}
+.butt{
+    height: 53px;
+    width: 283px;
+    border: 1px solid #03a66a;
+    background-color: transparent;
+    color: #03a66a;
+    border-radius: 22px;
+}
+.num:hover{
+    background-color: #03a66a;
+    border-radius:22px;
+    color: white;
+}
+.butopa{
+    color: #03a66a;
+    opacity: 0.3;
+}

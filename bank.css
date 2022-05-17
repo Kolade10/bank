@@ -189,6 +189,7 @@ button{
     grid-template-columns: 200px 1000px;
     grid-gap: 480px;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 .foottext p{
     width: 358px;
